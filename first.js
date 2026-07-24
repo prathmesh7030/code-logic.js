@@ -1,6 +1,10 @@
-fullName = "Tony Stark";
-age = 25;
-price = 45000.75;
-console.log(fullName);
-console.log(age);
-console.log(price);
+const product = {
+    title: "Ball pen",
+    rating: 4,
+    offer: 5,
+    price: 270
+};
+
+console.log(product);
+
+
