@@ -5,6 +5,9 @@
 //     price: 270
 // };
 
+
+
+
 // console.log(product);
 
 //Conditional Statement
@@ -22,6 +25,8 @@
 // else{
 //     console.log("Middle");
 // }
+
+
 
 
 //Switch Case 
@@ -46,16 +51,43 @@
 // Logs 0 and 1
 
 
-let num = prompt("enter a number:");
 
 
-if (num % 5 === 0) {
-    console.log(num, "is a multiple of 5");
+// check multiple
+
+// let num = prompt("enter a number:");
+
+// if (num % 5 === 0) {
+//     console.log(num, "is a multiple of 5");
+// }
+
+// else{
+//     console.log(num, "is not multiple of 5")
+// }
+
+
+
+
+//Grade system
+
+let score = prompt("Enter your percentage (0-100)");
+let grade;
+
+if(score >= 90 && score <= 100){
+    grade = "A";
+}
+else if(score >=70 && score < 89){
+    grade = "B";
+}
+else if(score >=60 && score < 69){
+    grade = "B";
+}
+else if(score >=50 && score < 59){
+    grade = "B";
+}else if(score >=0 && score < 49){
+    grade = "B";
 }
 
-else{
-    console.log(num, "is not multiple of 5")
-}
 
 
 
