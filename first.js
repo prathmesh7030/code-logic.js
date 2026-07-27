@@ -99,12 +99,20 @@
 
 //while loop
 
-let i = 1;
-while(i <= 10) {
-    console.log("Prathmesh");
-    i++;
-}
+// let i = 1;
+// while(i <= 10) {
+//     console.log("Prathmesh");
+//     i++;
+// }
 
+
+//for-of loop
+
+let str = "Prathmesh";
+
+for(let i of str){
+    console.log("i =", i);
+}
 
 
 
