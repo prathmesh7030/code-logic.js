@@ -114,13 +114,26 @@
 //     console.log("i =", i);
 // }
 
-
+ 
 
 //print even numbers 
 
-for (let num = 0; num <= 100; num++){ 
-    if(num %2 === 0){
-    //Even number
-    console.log("num =",num);
-    }
+// for (let num = 0; num <= 100; num++){ 
+//     if(num %2 === 0){
+//     //Even number
+//     console.log("num =",num);
+//     }
+// }
+
+
+
+//number guess game 
+
+let gameNum = 25;
+let userNum = prompt("Guess the number from 1 to 50 : ");
+
+while(userNum != gameNum){
+    userNum = prompt("you entered a wrong number. guess again : ");
 }
+
+console.log("congratulations, you entered right number");
