@@ -108,11 +108,19 @@
 
 //for-of loop
 
-let str = "Prathmesh";
+// let str = "Prathmesh";
 
-for(let i of str){
-    console.log("i =", i);
+// for(let i of str){
+//     console.log("i =", i);
+// }
+
+
+
+//print even numbers 
+
+for (let num = 0; num <= 100; num++){ 
+    if(num %2 === 0){
+    //Even number
+    console.log("num =",num);
+    }
 }
-
-
-
