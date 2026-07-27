@@ -89,8 +89,20 @@
 // }
 
 
-for(let count = 1; count <= 5; count++){
+
+//for loop
+
+// for(let count = 1; count <= 5; count++){
+//     console.log("Prathmesh");
+// }
+
+
+//while loop
+
+let i = 1;
+while(i <= 10) {
     console.log("Prathmesh");
+    i++;
 }
 
 
