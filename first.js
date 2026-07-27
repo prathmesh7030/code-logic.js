@@ -70,22 +70,27 @@
 
 //Grade system
 
-let score = prompt("Enter your percentage (0-100)");
-let grade;
+// let score = prompt("Enter your percentage (0-100)");
+// let grade;
 
-if(score >= 90 && score <= 100){
-    grade = "A";
-}
-else if(score >=70 && score < 89){
-    grade = "B";
-}
-else if(score >=60 && score < 69){
-    grade = "B";
-}
-else if(score >=50 && score < 59){
-    grade = "B";
-}else if(score >=0 && score < 49){
-    grade = "B";
+// if(score >= 90 && score <= 100){
+//     grade = "A";
+// }
+// else if(score >=70 && score < 89){
+//     grade = "B";
+// }
+// else if(score >=60 && score < 69){
+//     grade = "B";
+// }
+// else if(score >=50 && score < 59){
+//     grade = "B";
+// }else if(score >=0 && score < 49){
+//     grade = "B";
+// }
+
+
+for(let count = 1; count <= 5; count++){
+    console.log(Prathmesh);
 }
 
 
