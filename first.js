@@ -142,10 +142,17 @@
 
 //template literals
 
-let obj = {
-    item: "pen",
-    price: 10,
-};
+// let obj = {
+//     item: "pen",
+//     price: 10,
+// };
 
-let output = `the cost of ${obj.item} is ${obj.price} rupees`;
-console.log(output);
+// let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+
+
+//Escape characters
+
+let str = "Prathmesh\tkolpe"; //15
+console.log(str.length);
