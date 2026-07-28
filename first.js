@@ -129,11 +129,23 @@
 
 //number guess game 
 
-let gameNum = 25;
-let userNum = prompt("Guess the number from 1 to 50 : ");
+// let gameNum = 25;
+// let userNum = prompt("Guess the number from 1 to 50 : ");
 
-while(userNum != gameNum){
-    userNum = prompt("you entered a wrong number. guess again : ");
-}
+// while(userNum != gameNum){
+//     userNum = prompt("you entered a wrong number. guess again : ");
+// }
 
-console.log("congratulations, you entered right number");
+// console.log("congratulations, you entered right number");
+
+
+
+//template literals
+
+let obj = {
+    item: "pen",
+    price: 10,
+};
+
+let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+console.log(output);
