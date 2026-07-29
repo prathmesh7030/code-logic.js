@@ -178,7 +178,16 @@
 
 //Generate username
 
-let fullName = prompt("Enter your full name without spaces");
+// let fullName = prompt("Enter your full name without spaces");
 
-let username = "@" + fullName + fullName.length ;
-console.log(username);
+// let username = "@" + fullName + fullName.length ;
+// console.log(username);
+
+
+
+
+//arrays
+
+let marks = [ "Math: 100" , "Bio: 90" , "chem: 92" , "phy: 100" , "zoology: 95" ];
+console.log(marks);
+console.log(marks.length);
