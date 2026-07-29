@@ -154,5 +154,15 @@
 
 //Escape characters
 
-let str = "Prathmesh\tkolpe"; //15
-console.log(str.length);
+// let str = "Prathmesh\tkolpe"; //15
+// console.log(str.length);
+
+
+
+//String concatination
+
+let str1 = "Local";
+let str2 = "Classes";
+
+let res = "I am learning coading from" + str1 + str2;
+console.log(res);
