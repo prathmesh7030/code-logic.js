@@ -161,8 +161,15 @@
 
 //String concatination
 
-let str1 = "Local";
-let str2 = "Classes";
+// let str1 = "Local";
+// let str2 = "Classes";
 
-let res = "I am learning coading from" + str1 + str2;
-console.log(res);
+// let res = "I am learning coading from" + str1 + str2;
+// console.log(res);
+
+
+
+//string replace
+
+let str = "hello";
+console.log(str.replace("h","y"));
