@@ -185,9 +185,23 @@
 
 
 
-
 //arrays
 
-let marks = [ "Math: 100" , "Bio: 90" , "chem: 92" , "phy: 100" , "zoology: 95" ];
-console.log(marks);
-console.log(marks.length);
+// let marks = [ "Math: 100" , "Bio: 90" , "chem: 92" , "phy: 100" , "zoology: 95" ];
+// console.log(marks);
+// console.log(marks.length);
+
+
+
+//calculate average
+
+let marks = [95, 90, 97, 98, 99];
+
+let sum = 0;
+
+for (let val of marks) {
+    sum += val;
+}
+
+let avg = sum / marks.length;
+console.log(`Your average marks = ${avg} %`);
