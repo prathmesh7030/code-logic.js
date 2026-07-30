@@ -225,10 +225,20 @@
 
 //concate arrays
 
-let marvelheros = ["spiderman", "ironman"];
-let dcheroes = ["superman", "batman"];
-let indianheros = ["shaktiman", "krishna"]
+// let marvelheros = ["spiderman", "ironman"];
+// let dcheroes = ["superman", "batman"];
+// let indianheros = ["shaktiman", "krishna"]
 
-let heroes = marvelheros.concat(dcheroes, indianheros);
+// let heroes = marvelheros.concat(dcheroes, indianheros);
 
-console.log(heroes);
+// console.log(heroes);
+
+
+
+//create array to store companies
+
+let companies = ["Bloombug", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+ companies.slice(2, 1, "Ola");
+
+ companies.push("Amazon");
