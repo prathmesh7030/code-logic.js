@@ -210,13 +210,25 @@
 
 //change the array to store final price after applying offer
 
-let items = [250, 650, 300, 900, 550];
+// let items = [250, 650, 300, 900, 550];
 
-let i = 0;
-for(let val of items) {
-    console.log(`Value at index ${i} ${val}`);
-    let offer = val / 10;
-    items[i] = items[i] - offer;
-    console.log(`Value after offer = ${items[i]}`);
-    i++;
-}
+// let i = 0;
+// for(let val of items) {
+//     console.log(`Value at index ${i} ${val}`);
+//     let offer = val / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`Value after offer = ${items[i]}`);
+//     i++;
+// }
+
+
+
+//concate arrays
+
+let marvelheros = ["spiderman", "ironman"];
+let dcheroes = ["superman", "batman"];
+let indianheros = ["shaktiman", "krishna"]
+
+let heroes = marvelheros.concat(dcheroes, indianheros);
+
+console.log(heroes);
