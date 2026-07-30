@@ -195,13 +195,28 @@
 
 //calculate average
 
-let marks = [95, 90, 97, 98, 99];
+// let marks = [95, 90, 97, 98, 99];
 
-let sum = 0;
+// let sum = 0;
 
-for (let val of marks) {
-    sum += val;
+// for (let val of marks) {
+//     sum += val;
+// }
+
+// let avg = sum / marks.length;
+// console.log(`Your average marks = ${avg} %`);
+
+
+
+//change the array to store final price after applying offer
+
+let items = [250, 650, 300, 900, 550];
+
+let i = 0;
+for(let val of items) {
+    console.log(`Value at index ${i} ${val}`);
+    let offer = val / 10;
+    items[i] = items[i] - offer;
+    console.log(`Value after offer = ${items[i]}`);
+    i++;
 }
-
-let avg = sum / marks.length;
-console.log(`Your average marks = ${avg} %`);
