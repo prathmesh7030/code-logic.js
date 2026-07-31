@@ -237,8 +237,39 @@
 
 //create array to store companies
 
-let companies = ["Bloombug", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// let companies = ["Bloombug", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
- companies.slice(2, 1, "Ola");
+//  companies.slice(2, 1, "Ola");
 
- companies.push("Amazon");
+//  companies.push("Amazon");
+
+
+
+
+//functions
+
+//arithmetic operations using functions
+
+//Sum function
+
+function sum(a, b) {
+    return a + b;
+}
+
+//multiplication function
+
+function mul(a, b) {
+    return a * b;
+}
+
+//substraction function
+
+function sub(a, b) {
+    return a - b;
+}
+
+//division fuction
+
+function div(a, b) {
+    return a / b;
+}
