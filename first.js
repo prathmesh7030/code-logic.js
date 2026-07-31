@@ -253,23 +253,39 @@
 //Sum function
 
 function sum(a, b) {
-    return a + b;
+    return (a + b);
 }
+
+const arrowSum = (a, b) => {
+    console.log(a + b);
+};
 
 //multiplication function
 
 function mul(a, b) {
-    return a * b;
+    return (a * b);
 }
+
+const arrowMul = (a, b) => {
+    console.log(a * b);
+};
 
 //substraction function
 
 function sub(a, b) {
-    return a - b;
+    return (a - b);
 }
+
+const arrowSub = (a, b) => {
+    console.log(a - b);
+};
 
 //division fuction
 
 function div(a, b) {
-    return a / b;
+    return (a / b);
 }
+
+const arrowdiv = (a, b) => {
+    console.log(a / b);
+};
