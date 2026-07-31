@@ -315,8 +315,18 @@
 
 // for each loop in functions
 
-let arr = ["Pune", "mumbai", "kolkata", "landon"];
+// let arr = ["Pune", "mumbai", "kolkata", "landon"];
 
-arr.forEach((val, idx, arr) => {
-    console.log(val.toUpperCase(), idx, arr );
+// arr.forEach((val, idx, arr) => {
+//     console.log(val.toUpperCase(), idx, arr );
+// });
+
+
+
+//print squares using for each loop
+
+let nums = [67, 56, 72, 93];
+
+nums.forEach((num) => {
+    console.log(num * num); //num**2
 });
