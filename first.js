@@ -252,40 +252,61 @@
 
 //Sum function
 
-function sum(a, b) {
-    return (a + b);
+// function sum(a, b) {
+//     return (a + b);
+// }
+
+// const arrowSum = (a, b) => {
+//     console.log(a + b);
+// };
+
+// //multiplication function
+
+// function mul(a, b) {
+//     return (a * b);
+// }
+
+// const arrowMul = (a, b) => {
+//     console.log(a * b);
+// };
+
+// //substraction function
+
+// function sub(a, b) {
+//     return (a - b);
+// }
+
+// const arrowSub = (a, b) => {
+//     console.log(a - b);
+// };
+
+// //division fuction
+
+// function div(a, b) {
+//     return (a / b);
+// }
+
+// const arrowdiv = (a, b) => {
+//     console.log(a / b);
+// };
+
+
+
+// function ot count vovels
+
+function countVovels(str) {
+    let count = 0;
+    for (const char of str) {
+        if(
+            char === "a"||
+            char === "e"|| 
+            char === "i"|| 
+            char === "o"|| 
+            char === "u"
+        ){
+            count++;
+        }
+    }
+
+    console.log(count);
 }
-
-const arrowSum = (a, b) => {
-    console.log(a + b);
-};
-
-//multiplication function
-
-function mul(a, b) {
-    return (a * b);
-}
-
-const arrowMul = (a, b) => {
-    console.log(a * b);
-};
-
-//substraction function
-
-function sub(a, b) {
-    return (a - b);
-}
-
-const arrowSub = (a, b) => {
-    console.log(a - b);
-};
-
-//division fuction
-
-function div(a, b) {
-    return (a / b);
-}
-
-const arrowdiv = (a, b) => {
-    console.log(a / b);
-};
