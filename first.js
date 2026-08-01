@@ -323,10 +323,22 @@
 
 
 
-//print squares using for each loop
+//print squares using foreach loop
 
-let nums = [67, 56, 72, 93];
+// let nums = [67, 56, 72, 93, 47];
 
-nums.forEach((num) => {
-    console.log(num * num); //num**2
+// nums.forEach((num) => {
+//     console.log(num * num); //num**2
+// });
+
+
+
+//print square using map array
+
+let nums = [67, 52, 39];
+
+let newArr = nums.map((val) => {
+    return val * val;
 });
+
+console.log(newArr);
