@@ -359,10 +359,22 @@
 
 //Reduce array method
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-const output = arr.reduce((res, curr) => {
-    return res + curr;
+// const output = arr.reduce((res, curr) => {
+//     return res + curr;
+// });
+
+// console.log(output);
+
+
+
+//filter out marks of students above 90
+
+let marks = [99, 57, 90, 98, 95, 87, 94, 45, 67, 78];
+
+let toppers = marks.filter((val) => {
+    return val >= 90;
 });
 
-console.log(output);
+console.log(toppers);
