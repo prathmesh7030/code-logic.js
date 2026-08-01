@@ -347,10 +347,22 @@
 
 //saperate even numbers using filter array
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
 
-let evenArr = arr.filter((val) => {
-    return val %2 === 0; 
+// let evenArr = arr.filter((val) => {
+//     return val %2 === 0; 
+// });
+
+// console.log(evenArr);
+
+
+
+//Reduce array method
+
+let arr = [1, 2, 3, 4];
+
+const output = arr.reduce((res, curr) => {
+    return res + curr;
 });
 
-console.log(evenArr);
+console.log(output);
