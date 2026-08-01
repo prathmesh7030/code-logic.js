@@ -371,10 +371,36 @@
 
 //filter out marks of students above 90
 
-let marks = [99, 57, 90, 98, 95, 87, 94, 45, 67, 78];
+// let marks = [99, 57, 90, 98, 95, 87, 94, 45, 67, 78];
 
-let toppers = marks.filter((val) => {
-    return val >= 90;
+// let toppers = marks.filter((val) => {
+//     return val > 90;
+// });
+
+// console.log(toppers);
+
+
+
+//input a number from user and calculate sum and factorial
+
+let n = prompt("Enter a number : ");
+
+let arr = [];
+
+for(let i = 1; i <= n; i++) {
+    arr [i - 1] = i;
+}
+
+console.log(arr);
+
+let sum = arr.reduce((res, cur) => {
+    return res + cur;
 });
 
-console.log(toppers);
+console.log("sum = ", sum);
+
+let factorial = arr.reduce((res, cur) => {
+    return res * cur;
+});
+
+console.log("factorial = ", factorial);
