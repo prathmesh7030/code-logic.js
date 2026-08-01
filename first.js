@@ -335,10 +335,22 @@
 
 //print square using map array
 
-let nums = [67, 52, 39];
+// let nums = [67, 52, 39];
 
-let newArr = nums.map((val) => {
-    return val * val;
+// let newArr = nums.map((val) => {
+//     return val * val;
+// });
+
+// console.log(newArr);
+
+
+
+//saperate even numbers using filter array
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+
+let evenArr = arr.filter((val) => {
+    return val %2 === 0; 
 });
 
-console.log(newArr);
+console.log(evenArr);
