@@ -1,2 +1,2 @@
-let div = document.querySelector(div);
+let div = document.querySelector("div");
 console.dir(div);
