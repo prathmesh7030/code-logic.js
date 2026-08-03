@@ -1,9 +1,3 @@
-let newBtn = document.createElement("button");
+let para = document.querySelector("p")
 
-newBtn.innerText = "click me!";
-
-newBtn.style.color = "white";
-
-newBtn.style.backgroundColor = "red";
-
-document.querySelector("body").prepend(newBtn);
+para.classList.add("newclass");
