@@ -1,9 +1,9 @@
-let divs = document.querySelectorAll(".box");
+let newBtn = document.createElement("button");
 
-console.dir(divs[0]);
+newBtn.innerText = "click me!";
 
-let idx = 1;
-for(div of divs) {
-    div .innerText = `new unique value ${idx}`;
-    idx++;
-}
+newBtn.style.color = "white";
+
+newBtn.style.backgroundColor = "red";
+
+document.querySelector("body").prepend(newBtn);
