@@ -1,14 +1,10 @@
 let btn1 = document.querySelector("#btn1");
 
-btn1.onclick = () => {
-    console.log("button was clicked");
-    let a = 25;
-    a++; a <= i ;
-    console.log(a);
-};
+btn1.addEventListener("click", (evt) => {
+    console.log("button1 was clicked");
+    console.log(evt);
+    console.log(evt.type);
+});
 
 let div = document.querySelector("div");
 
-div.onmouseover = () => {
-    console.log("you are inside div");
-};
