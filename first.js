@@ -1,23 +1,13 @@
-let btn1 = document.querySelector("#btn1");
+let modebtn = document.querySelector("#mode");
+let currMode = "light";
 
-btn1.addEventListener("click", () => {
-    console.log("button1 was clicked - Handler 1");
-});
-
-btn1.addEventListener("click", () => {
-    console.log("button1 was clicked - Handler 2");
-});
-
-
-const handler3 =() => {
-    console.log("button1 was clicked - Handler3");
-};
-
-btn1.addEventListener("click", handler3);
-
-btn1.removeEventListener("click", handler3);
-
-
-btn1.addEventListener("click", () => {
-    console.log("button1 was clicked - Handler 4");
+modebtn.addEventListener("click", () => {
+    if (currMode === "light"){
+        currMode = "dark";
+        document.querySelector("body").style.backgroundColor = "black";
+    }else{
+        currMode = "light";
+        document.querySelector("body").style.backgroundColor = "white";
+    }
+    console.log(currMode);
 });
