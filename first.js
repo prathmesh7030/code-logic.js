@@ -1,3 +1,14 @@
-let para = document.querySelector("p")
+let btn1 = document.querySelector("#btn1");
 
-para.classList.add("newclass");
+btn1.onclick = () => {
+    console.log("button was clicked");
+    let a = 25;
+    a++; a <= i ;
+    console.log(a);
+};
+
+let div = document.querySelector("div");
+
+div.onmouseover = () => {
+    console.log("you are inside div");
+};
