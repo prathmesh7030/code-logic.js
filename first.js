@@ -1,16 +1,17 @@
-let modebtn = document.querySelector("#mode");
-let body = document.querySelector("body")
-let currMode = "light";
+class ToyotaCar {
 
-modebtn.addEventListener("click", () => {
-    if (currMode === "light"){
-        currMode = "dark";
-        body.classList.add("dark");
-        body.classList.remove("light");
-    }else{
-        currMode = "light";
-        body.classList.add("light");
-        body.classList.remove("dark");
+    start () {
+        console.log("start");
     }
-    console.log(currMode);
-});
+
+    stop () {
+        console.log("stop");
+    }
+    
+    setBrand(brand) {
+        this.brand = brand;
+    }
+}
+
+let fortuner = new ToyotaCar();
+let lexes = new ToyotaCar();
