@@ -1,17 +1,17 @@
-class ToyotaCar {
+let a = 5;
+let b = 10;
+console.log("a = ", a);
+console.log("b = ", b);
+console.log("a + b = ", a + b);
 
-    start () {
-        console.log("start");
-    }
+try{
+console.log("a + b = ", a + c); //error
 
-    stop () {
-        console.log("stop");
-    }
-    
-    setBrand(brand) {
-        this.brand = brand;
-    }
+}catch(err) {
+    console.log(err);
 }
 
-let fortuner = new ToyotaCar();
-let lexes = new ToyotaCar();
+console.log("a + b = ", a + b);
+console.log("a + b = ", a + b);
+console.log("a + b = ", a + b);
+console.log("a + b = ", a + b);
